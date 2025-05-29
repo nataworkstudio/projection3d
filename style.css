@@ -14,7 +14,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .red{
-  padding: 3rem;
+  padding: 5%;
   color: var(--bgPenColor);
 }
 .red h2{
@@ -95,7 +95,7 @@
 }
 .modeling_tools{
   margin: 0; 
-  padding: 50px;
+  padding: 5%;
   padding-top:0;
   padding-bottom:0;
 }
@@ -104,8 +104,8 @@
   color: rgb(202, 202, 202);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 100;
-  font-size: 2.5rem;
-  padding: 2.2rem;
+  font-size: 2.2rem;
+  padding: 5%;
   padding-top: 0;
   border-bottom:1px solid var(--penHighlightColor)
 }
