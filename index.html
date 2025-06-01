@@ -9,6 +9,13 @@
 </head>
 <body>
   <div class="mainwindow">
+    <div>
+      <img src="images/Splash_1920x1080.jpg" alt="img" style="width: 100%;">
+    </div>
+    <div class="short_description">
+      <p>Advanced tool for camera projection mapping and photo parallax animation in After Effects.<strong></strong></p>
+    </div>
+    <div class="lines" style="height: .3rem; background-color: #000000;"></div>
     <div class="red">
       <h2>Important Requirement</h2>
       <p id="Attension">These new features use Blender for background processing. To make it work you need to install the fully free <a href="https://www.blender.org/" target="_blank" style="color: orange;"> Blender application</a> for your operating system.</p>
@@ -45,7 +52,7 @@
       <div class="textOnImg">
         <div class="tool_content_div">
           <h1 class="tool_name">EXTRUDE</h1>
-          <h1 class="tool_content">Extrude tool allows you to extrude a selected mask shape(polygon).</h1>
+          <h1 class="tool_content">Extrude tool allows you to extrude a selected mask(polygon).</h1>
         </div>
         <div class="imgContainer">
           <img src="images/extrude.png" alt="img">
@@ -123,7 +130,7 @@
             <h1 class="tool_content">Bend any layer/image.</h1>
         </div>
         <div class="imgContainer">
-          <img src="images/bend.jpg" alt="img">
+          <img src="images/bend.png" alt="img">
         </div>
       </div>
       
@@ -133,7 +140,7 @@
     <div class="lines" style="height: 0.3rem; background-color: transparent;"></div>
 
     <div>
-      <div class="modeling_tools" style="padding-top:50px; font-size: 2rem;">
+      <div class="modeling_tools" style="font-size: 2rem;">
         <h1>STABILIZE 3D MATCHMOVE</h1>
       </div>
       <div class="textOnImg">
@@ -172,10 +179,9 @@
     </div>
 
     <div class="lines" style="height: .3rem; background-color: #000000;"></div>
-    <div class="lines" style="height: 0.3rem; background-color: transparent;"></div>
 
     <div>
-      <div class="modeling_tools" style="padding-top:50px; font-size: 2rem;">
+      <div class="modeling_tools" style="font-size: 2rem;">
         <h1>DISPLACE</h1>
       </div>
       <div class="textOnImg">
@@ -201,29 +207,20 @@
     </div>
 
     <div class="lines" style="height: .3rem; background-color: #000000;"></div>
-    <div class="lines" style="height: 0.3rem; background-color: transparent;"></div>
-
-    <div>
-      <div class="modeling_tools" style="padding-top:50px; font-size: 2rem;">
-        <h1>CLEAN EDGES</h1>
-      </div>
-      <div class="textOnImg">
-        <div class="tool_content_div">
-            <h1 class="tool_content">Create rough mesh of a model & clean unwanted edges with one click.</h1>
+    <div id="clean_edges">
+      <h1 class="vernagir">CLEAN EDGES</h1>
+      <h1 class="tool_content">Create rough mesh of a model & clean unwanted edges with one click.</h1>
+      <div class="primitives_i">
+        <div class="prim_img_container">
+          <img src="images/car1.1.jpg" alt="img">
         </div>
-        <div class="primitives_i">
-          <div class="prim_img_container">
-            <img src="images/car1.1.jpg" alt="img">
-          </div>
-          <div class="prim_img_container">
-            <img src="images/car1.jpg" alt="img">
-          </div>
+        <div class="prim_img_container">
+          <img src="images/car1.jpg" alt="img">
         </div>
       </div>
     </div>
 
     <div class="lines" style="height: .3rem; background-color: #000000;"></div>
-    <div class="lines" style="height: 0.3rem; background-color: transparent;"></div>
     <div id="primitives">
       <h1 class="vernagir">PRIMITIVES</h1>
       <div class="primitives_i">
@@ -236,7 +233,6 @@
       </div>
     </div>
     <div class="lines" style="height: .3rem; background-color: #000000;"></div>
-    <div class="lines" style="height: 0.3rem; background-color: transparent;"></div>
     <div id="anchor_point" >
       <h1 class="vernagir">3D Anchor Point Editor</h1>
       <h1 class="tool_content" style="text-align: center;">Easily reposition the anchor point of a 3D object, as well as a 2D object.</h1>
@@ -249,35 +245,34 @@
       </div>
     </div>
     <div class="lines" style="height: .3rem; background-color: #000000;"></div>
-    <div class="lines" style="height: 0.3rem; background-color: transparent;"></div>
 
     <div id="export_obj" >
       <h1 class="vernagir">EXPORT .OBJ</h1>
-      <h1 class="tool_content" style="text-align: center;">You can export your solids, masks and layers as an OBJ File and open it in 3D Software.</h1>
+      <h1 class="tool_content" style="text-align: center;">You can export your solids,compositions, masks and layers as an OBJ File and open it in a 3D editing program.</h1>
       <div class="primitives_i">
         <img src="images/export_obj.jpg" alt="img" style="width:100%">
       </div>
     </div>
     <div class="lines" style="height: .3rem; background-color: #000000;"></div>
-    <div class="lines" style="height: 0.3rem; background-color: transparent;"></div>
 
     <div id="export_camera" >
       <h1 class="vernagir">EXPORT CAMERA ANIMATION</h1>
-      <h1 class="tool_content" style="text-align: center;">You can export the camera animation as a Python file and open it in 3D Software.</h1>
+      <h1 class="tool_content" style="text-align: center;">You can export your After Effects camera animation as a Python file and open it in a 3D editing program.</h1>
       <div class="primitives_i">
         <img src="images/export_camera.png" alt="img" style="width:100%">
       </div>
     </div>
     <div class="lines" style="height: .3rem; background-color: #000000;"></div>
-    <div class="lines" style="height: 0.3rem; background-color: transparent;"></div>
 
-    <div class="fspy_ae_importer">
-      <h1>INTEGRATION WITH FSPY CAMERA MATCHING TOOL</h1>
-      <img src="images/fspy_ae_export.png" alt="img">
+    <div id="fspy_ae_importer">
+      <h1 class="vernagir">INTEGRATION WITH FSPY CAMERA MATCHING TOOL</h1>
+      <h1 class="tool_content"></h1>
+      <div class="primitives_i">
+        <img src="images/fspy_ae_export.png" alt="img" style="width:100%">
+      </div>
     </div>
 
     <div class="lines" style="height: .3rem; background-color: #000000;"></div>
-    <div class="lines" style="height: 0.3rem; background-color: transparent;"></div>
 
     <div>
       <div id="water_animation">
